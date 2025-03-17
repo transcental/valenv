@@ -5,12 +5,12 @@ repos:
   - id: black
 - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-  rev: v0.9.6
+  rev: v0.11.0
   hooks:
   - id: ruff
 
 - repo: https://github.com/sourcery-ai/sourcery
-  rev: v1.33.0
+  rev: v1.35.0
   hooks:
   - id: sourcery
     # The best way to use Sourcery in a pre-commit hook:
