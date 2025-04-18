@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.0.285"
+ruff = "^0.1.6"
 pre-commit = "^3.3.3"
 sourcery = "^1.8.0"
 
